@@ -89,12 +89,13 @@ http://localhost:9090/api
 * Spring Native
 * Spring Boot Web
 * Spring Boot Jpa
+* Spring Boot Log4j2
 * Ngdbc
 * SpringDoc Openapi Ui
+* Maven Jib Plugin  
 * Spring Boot Actuator
 * Maven Clean Plugin
 * Maven Enforcer Plugin
-* Logback
 * Lombok
 * Dev Tools
 * Spring Boot Test
