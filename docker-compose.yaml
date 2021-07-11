@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  app:
+    image: suayb/spring-boot-sap-hxe-example:${SERVICE_IMAGE_TAG}
+    container_name: app
+    restart: ${RESTART_POLICY}
+    networks:
+      - back-tier
+    environment:
+      - TZ
+      - SERVER_PORT
+      - SPRING_DATASOURCE_URL
+      - SPRING_DATASOURCE_USERNAME
+      - SPRING_DATASOURCE_PASSWORD
+      - OPENAPI_TITLE
+      - OPENAPI_DESCRIPTION
+      - OPENAPI_VERSION
+      - OPENAPI_TERMS-OF-SERVICE-URL
+      - OPENAPI_LICENCE
+      - OPENAPI_LICENCE_URL
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+
+networks:
+  back-tier:
+    driver: bridge
+    name: back-tier
