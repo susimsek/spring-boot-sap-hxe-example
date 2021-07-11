@@ -39,7 +39,7 @@ docker-compose up -d
 
 ## Installation Using Vagrant for Docker-Compose Deployment
 
-<img src="https://github.com/susimsek/spring-boot-sap-hxe-example/blob/main/images/vagrant-installation.png" alt="Spring Boot Vagrant Installation" width="100%" height="100%"/> 
+<img src="https://github.com/susimsek/spring-boot-sap-hxe-example/blob/main/images/vagrant-docker-compose-installation.png" alt="Spring Boot Vagrant Docker Compose Installation" width="100%" height="100%"/> 
 
 ### Prerequisites for Docker-Compose Deployment
 
